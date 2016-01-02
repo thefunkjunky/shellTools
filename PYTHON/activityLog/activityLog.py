@@ -9,7 +9,6 @@ from datetime import datetime
 import time
 import tarfile
 
-### TODO: redesign as a class object (OOP)
 
 class ActivityLogger(object):
 	"""Generates a log file for server activity, CPU load, and MySQL statistics."""
