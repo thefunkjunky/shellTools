@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+# Needed when run with "./activityLog.py" from shell, otherwise the $SHELL interpreter 
+# will try to execute the script and bad things may happen.
+
 import os
 import sys
 import shutil
